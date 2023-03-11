@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonym"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <title>Quiz in Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top text-bg-dark p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand navbar-dark" href="#">RBS Fitness Hub</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active navbar-dark"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-light dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Training Program
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Total Body Workout</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Strength Training</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Circuit Training</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid p-5" style="background-color: lightgray">
+      <div class="jumbotron">
+        <h1 class="display-4 mt-5" style="margin: 0px 100px">
+          <b>Welcome to our Fitness Page!</b>
+        </h1>
+        <p class="lead" style="margin-left: 100px">
+          <b
+            >This page is dedicated to all our fitness enthusiast. We have
+            different workout programs and training plans that will help you
+            reach your fitness goals. Keep on scrolling to learn more about our
+            programs.</b
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-primary"
+          style="margin-left: 100px"
+        >
+          Learn More
+        </button>
+      </div>
+    </div>
+    <div class="container p-5" style="background-color: white">
+      <div class="row align-items-start">
+        <div class="col-4">
+          <h4>Total Body Workout</h4>
+          <p>
+            This workout program will give your entire body a great workout.
+            With this program, you can gain strength, flexibility and endurance.
+            A full-body exercise uses a variety of muscle groups in a person's
+            body, rather than just one. No exercise will work every muscle, but
+            these exercises typically work across the upper body, lower body,
+            and core.
+          </p>
+          <button type="button" class="btn btn-primary">View More</button>
+        </div>
+        <div class="col-4">
+          <h4>Strength Training</h4>
+          <p>
+            This training program is designed to help you build strength and
+            muscle mass. It is also great for improving your balance and
+            coordination. Strength training may enhance your quality of life and
+            improve your ability to do everyday activities. Strength training
+            can also protect your joints from injury. Building muscle also can
+            contribute to better balance.
+          </p>
+          <button type="button" class="btn btn-primary">View More</button>
+        </div>
+        <div class="col-4">
+          <h4>Circuit Training</h4>
+          <p>
+            This program is all about combining strength, cardio and flexibility
+            exercises into one workout. It is great for improving your overall
+            fitness level, burning fat and toning your body. Circuit training
+            consists of a consecutive series of timed exercises performed one
+            after the other with varying amounts of rest between each exercise.
+          </p>
+          <button type="button" class="btn btn-primary">View More</button>
+        </div>
+        <br/>
+        <div class="hr pt-5">
+        <hr style="border: 2px solid">
+        <i class="far fa-copyright"><span>  Roland Sumaya 2023</span></i>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+  </body>
+</html>
